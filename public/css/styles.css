@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main_content{
+    flex-grow: 1;
+}
+
+.title {
+    position: relative;
+    font-size: 50px;
+    color : rgba(13, 130, 134, 0.918);
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    float: left;
+}
+  
+header a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    left: 2%;
+}
+
+footer{
+    background-color: darkcyan;
+    border-top: wheat;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    margin-top: 50px ;
+    position: relative;
+    left: 15%;
+}
+
+#form1{
+    width: 230px;
+    padding: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn {
+    cursor: pointer;
+    width: 50px;
+    padding: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.labell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
